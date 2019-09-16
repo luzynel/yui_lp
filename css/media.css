@@ -1,0 +1,350 @@
+/*
+	Theme Name	: Clinic Portal
+	Framework		: SCSS SASS
+*/
+/** VARIABLE **/
+/* Large Tablet Devices */
+@media only screen and (max-width: 1000px) {
+  header,
+  section,
+  footer {
+    width: 1000px; } }
+/* Large Tablet Devices */
+@media only screen and (max-width: 500px) {
+  header,
+  section,
+  footer.page-footer,
+  .container {
+    width: 100%;
+    padding: 0; }
+
+  .sec-02 .container,
+  .sec-contact .container,
+  .sec-04 .container,
+  .sec-05 .container,
+  .sec-06 .container,
+  .sec-07 .container,
+  .sec-08 .container,
+  .sec-09 .container,
+  footer.page-footer .container {
+    padding: 20px 10px; }
+
+  .sec-content-wrap {
+    padding: 20px 10px;
+    padding-top: 0; }
+
+  .pc-only {
+    display: none; }
+
+  .sp-only {
+    display: inline; }
+
+  .unlink {
+    cursor: pointer;
+    pointer-events: initial;
+    pointer-events: unset; }
+    .unlink::after {
+      display: block; }
+    .unlink:hover {
+      opacity: 0.6; }
+
+  header.page-header {
+    position: relative; }
+    header.page-header .container {
+      min-height: 60px; }
+    header.page-header .top-btns {
+      position: fixed;
+      z-index: 999;
+      right: 0;
+      top: 0;
+      -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3); }
+      header.page-header .top-btns small {
+        display: none; }
+      header.page-header .top-btns li {
+        width: 60px;
+        float: left; }
+        header.page-header .top-btns li a {
+          height: 60px;
+          padding: 0;
+          padding-top: 38px;
+          font-size: 10px;
+          line-height: 1;
+          text-align: center;
+          font-weight: 300;
+          font-family: "Source Sans Pro", sans-serif; }
+          header.page-header .top-btns li a span.sp-only {
+            display: block;
+            padding: 0; }
+
+  .logo-wrapper {
+    width: auto; }
+    .logo-wrapper img {
+      height: 40px; }
+
+  .m-b40 {
+    margin-bottom: 20px; }
+
+  .m-b30 {
+    margin-bottom: 15px; }
+
+  .m-b20 {
+    margin-bottom: 15px; }
+
+  .m-lr40 {
+    margin: 0; }
+
+  .head-wrap {
+    margin-left: 10px;
+    margin-right: 10px; }
+    .head-wrap .head-txt {
+      font-size: 16px;
+      padding: 5px; }
+
+  .fig-text {
+    padding: 5px 10px;
+    margin: 10px; }
+
+  .head-ttl {
+    font-size: 24px; }
+    .head-ttl small {
+      font-size: 15px; }
+
+  .head-ttl-02 {
+    font-size: 24px;
+    margin-top: 5px; }
+
+  .head-ttl-05 {
+    font-size: 15px; }
+
+  .head-ttl-06 {
+    font-size: 16px;
+    line-height: 1.4; }
+
+  .sec-head-ttl {
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 8px 5px; }
+    .sec-head-ttl::after {
+      bottom: -10px;
+      margin-right: -9px;
+      border-top: 11px solid #fff;
+      border-left: 9px solid transparent;
+      border-right: 9px solid transparent; }
+
+  .sec-head-ttl2 {
+    font-size: 18px; }
+
+  .sec-head-ttl3 {
+    font-size: 18px;
+    margin-bottom: 20px; }
+    .sec-head-ttl3::after {
+      bottom: -10px;
+      margin-right: -9px;
+      border-top: 11px solid #37396C;
+      border-left: 9px solid transparent;
+      border-right: 9px solid transparent; }
+
+  .sub-ttl-01 {
+    line-height: 1.4; }
+
+  .img-c {
+    margin-bottom: 15px; }
+
+  .img-c.sp-only {
+    display: block; }
+
+  .img-r,
+  .img-l {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 15px; }
+
+  .imgs {
+    margin-bottom: 0; }
+    .imgs img {
+      float: none;
+      width: auto;
+      margin: 0 auto 15px; }
+
+  .tbl-style-01 tr {
+    width: 99%;
+    margin-bottom: 10px; }
+    .tbl-style-01 tr th, .tbl-style-01 tr td {
+      width: 100%;
+      display: block;
+      float: none;
+      padding: 10px; }
+    .tbl-style-01 tr th {
+      position: relative; }
+      .tbl-style-01 tr th span.sp-only {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+        color: #fff;
+        display: block;
+        position: absolute;
+        bottom: -6px;
+        width: 100%;
+        z-index: 2;
+        line-height: 1; }
+      .tbl-style-01 tr th .sublist li {
+        float: left;
+        width: 24.25%;
+        margin-right: 1%; }
+      .tbl-style-01 tr th .sublist li:nth-child(4n),
+      .tbl-style-01 tr th .sublist li:last-child {
+        margin-right: 0; }
+      .tbl-style-01 tr th .sublist li:last-child {
+        width: 100%; }
+      .tbl-style-01 tr th .sublist li.spe-01 {
+        width: 49.5%; }
+      .tbl-style-01 tr th .sublist li.spe-02 {
+        width: 74.75%; }
+      .tbl-style-01 tr th .spe-list-01 li:nth-child(3) {
+        margin-right: 0; }
+      .tbl-style-01 tr th .spe-list-01 li:nth-child(4) {
+        margin-right: 1%; }
+    .tbl-style-01 tr td {
+      padding: 0; }
+      .tbl-style-01 tr td .td-wrap {
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 70px;
+        background-clip: unset;
+        -webkit-background-clip: unset; }
+        .tbl-style-01 tr td .td-wrap::before {
+          display: block; }
+      .tbl-style-01 tr td .list-btn {
+        bottom: 10px; }
+        .tbl-style-01 tr td .list-btn a {
+          height: 50px;
+          line-height: 50px; }
+      .tbl-style-01 tr td .bg-img {
+        display: none; }
+
+  .sec-contact .sec-btns li {
+    display: block;
+    float: none;
+    width: 94%;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+    .sec-contact .sec-btns li:nth-child(2) {
+      margin-bottom: 0; }
+    .sec-contact .sec-btns li a {
+      padding: 8px;
+      height: 50px;
+      font-size: 16px; }
+    .sec-contact .sec-btns li i {
+      font-size: 16px;
+      top: 17px; }
+    .sec-contact .sec-btns li small {
+      vertical-align: text-top; }
+  .sec-contact .sec-btns .sched-txt {
+    font-size: 11px; }
+  .sec-contact .sec-btns-c li {
+    margin-bottom: 0; }
+
+  .box-style-01 {
+    padding: 20px 10px; }
+    .box-style-01 .ribbon span {
+      font-size: 13px;
+      padding: 3px 20px; }
+      .box-style-01 .ribbon span::before {
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 6px solid #F8F4EA; }
+      .box-style-01 .ribbon span::after {
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 0 solid transparent;
+        border-right: 6px solid #F8F4EA; }
+
+  .box-style-02 {
+    padding: 10px; }
+
+  .box-style-03 .fleft-box,
+  .box-style-03 .fright-box {
+    float: none;
+    margin: 0;
+    margin-bottom: 15px;
+    width: auto; }
+  .box-style-03 .fright-box {
+    margin-bottom: 0; }
+  .box-style-03:last-child {
+    padding-bottom: 0; }
+
+  .price-style-01 .price-text {
+    line-height: 24px;
+    text-align: right; }
+    .price-style-01 .price-text table {
+      width: 100%; }
+      .price-style-01 .price-text table tr td {
+        width: 50%;
+        text-align: right; }
+      .price-style-01 .price-text table tr td:first-child {
+        text-align: left;
+        width: 50%; }
+    .price-style-01 .price-text span {
+      float: left;
+      min-width: 180px;
+      text-align: center; }
+
+  .thumb-style-01 {
+    margin-top: 15px; }
+    .thumb-style-01 li {
+      margin-bottom: 8px; }
+
+  .doctor-content .sub-ttl-01 {
+    text-align: center;
+    display: block;
+    clear: both; }
+
+  .tbl-form tr th {
+    width: 100%;
+    display: block;
+    float: none;
+    padding: 0; }
+  .tbl-form tr td {
+    width: 100%;
+    display: block;
+    float: none;
+    padding: 7px 0 20px; }
+  .tbl-form tr:last-child td {
+    padding: 0; }
+  .tbl-form label {
+    float: none;
+    width: 100%; }
+    .tbl-form label span {
+      margin-right: 0; }
+  .tbl-form .field-03, .tbl-form .field-04 {
+    width: 100%;
+    float: none; }
+  .tbl-form .field-04 {
+    margin-top: 7px; }
+  .tbl-form .field-06 {
+    height: 100px; }
+  .tbl-form .submit-btn-arr {
+    width: 98%;
+    height: auto;
+    margin: 0 0 20px; }
+  .tbl-form .submit-btn {
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px; }
+
+  footer.page-footer {
+    min-height: auto;
+    text-align: left; } }
+/* Smartphones */
+@media only screen and (max-width: 375px) {
+  header,
+  section,
+  footer {
+    width: 375px; }
+
+  .container {
+    width: 100%; } }
+
+/*# sourceMappingURL=media.css.map */
